@@ -1,0 +1,50 @@
+.main-container {
+  display: flex;
+}
+.left-container {
+  background-color: #ffc533;
+  min-width: 50%;
+  min-height: 100vh;
+}
+.left-inner {
+  background-color: #ffbf1f;
+  min-height: 40%;
+  text-align: center;
+}
+.right-container {
+  background-color: #0f172a;
+  min-width: 50%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #ffbf1f;
+  font-size: 28px;
+  font-family: 'Roboto';
+}
+.add-button {
+  background-color: #ffc533;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+.left-heading {
+  color: #272c47;
+  font-size: 36px;
+  font-family: 'Roboto';
+}
+.noview-image {
+  width: 650px;
+}
+.input-text {
+  width: 400px;
+}
+.length {
+  color: #272c47;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.list-user-items {
+  list-style-type: none;
+}
